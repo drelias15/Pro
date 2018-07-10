@@ -1,0 +1,32 @@
+3. Find the average score
+A program is needed to prompt the user operator for ten exam scores, calculate the average score and display the result to the screen. The average score is calculated as the sum of the scores divided by the number of scores.
+
+A) Define the problem by constructing an algorithm using pseudocode
+Algorithm: Average = (a+b+c+d+e+f+g+h+i+j)/10 
+Pseudocode:
+1. Promt user for for ten exam scores
+2. Get "a-j",our exam scores
+3. Apply algoritm specified (Average = (a+b+c+d+e+f+g+h+i+j)/10)
+4. Display 	Average 
+B)Create an IPO diagram showing input, output, and processing steps
+Input: scoreInput1, scoreInput2, scoreInput3, scoreInput4, scoreInput5, scoreInput6, scoreInput7, scoreInput8, scoreInput9, scoreInput10 value from user
+Process: Apply algorithm ((a+b+c+d+e+f+g+h+i+j)/10)
+Output: Average
+C) What control structures (sequence, selection and repetition) are required?
+sequence
+D) What variables are required?
+input variable (scoreInput1, scoreInput2, scoreInput3, scoreInput4, scoreInput5, scoreInput6, scoreInput7, scoreInput8, scoreInput9, scoreInput10)
+Output variable (Average)
+E) Show a check of your solution with test data for at least two valid test cases
+
+scoreInput1 = 10
+scoreInput2 = 9
+scoreInput3 = 8
+scoreInput4 = 7 
+scoreInput5 = 6 
+scoreInput6 = 5
+scoreInput7 = 4
+scoreInput8 = 3
+scoreInput9 = 2
+scoreInput10 = 1
+Average = (10+9+8+7+6+5+4+3+2+1)/10=5.5

@@ -1,0 +1,35 @@
+4. How much water runs off the roof
+How much water runs off a roof in a rain storm?
+
+To calculate the runoff from any given rainfall: Take the dimensions of the footprint of the roof and convert them to inches. (So, a 50' x 20' roof is 600" x 240").
+ Multiply the roof dimensions by the number of inches of rainfall. In this example, 600" x 240" x 1" = 144,000 cubic inches of water. 
+ Divide that result by 231 to get the number of gallons (because 1 gallon = 231 cubic inches). (144,000/231 = 623.38).
+
+Write the pseudocode for the above problem. If you use the numbers provided in the example then the correct pseudocode will calculate the same result.
+
+Algorithm:  V1 = (S1*12)*(S2*12)*(rainfall)
+					V2 = volume in cubic inches/231
+Pseudocode:
+1. Promt user for roof dimensions and inches of rainfall
+2. Get "S1", "S2",our roof dimensions, rainfall
+3. Apply algoritm specified (V1 = (S1*12)*(S2*12)*(rainfall)
+					         V2 = volume in cubic inches/231)
+4. Display 	V1 and V2 
+B)Create an IPO diagram showing input, output, and processing steps
+Input: sideOne,SideTwo, rainfallInches
+Process: Apply algorithm (V1 = (S1*12)*(S2*12)*(rainfall)
+					         V2 = volume in cubic inches/231)
+Output: VolumeOne, VolumeTwo
+C) What control structures (sequence, selection and repetition) are required?
+sequence
+D) What variables are required?
+input variable (sideOne,SideTwo, rainfallInches)
+Output variable (volumeOne, volumeTwo)
+E) Show a check of your solution with test data for at least two valid test cases
+
+sideOne = 50 ft
+sideTwo = 20 ft
+rainfallInches = 1"
+
+volumeOne = (50*12)*(20*12)*1=144,000 CUBIC INCHES
+volumeTWO = VolumeOne/231=623.38

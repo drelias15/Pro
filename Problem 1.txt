@@ -1,0 +1,24 @@
+2. Add three numbers and print the total
+His little sister now wants a program to read three numbers, add them together and print their total.
+
+A) Define the problem by constructing an algorithm using pseudocode
+Algorithm: Total = x + y +z 
+Pseudocode:
+1. Promt user for for three numbers
+2. Get "x", "Y" and "Z",our numerical inputs
+3. Apply algoritm specified (Total = x + y +z)
+4. Display total 
+B)Create an IPO diagram showing input, output, and processing steps
+Input: numberInput1, numberInput2, numberInput3, value from user
+Process: Apply algorithm (Total = x + y +z)
+Output: Total
+C) What control structures (sequence, selection and repetition) are required?
+sequence
+D) What variables are required?
+input variable (numberInput1, numberInput2, numberInput3)
+Output variable (total)
+E) Show a check of your solution with test data for at least two valid test cases
+numberInput1 = 5
+numberInput2 = 6
+numberInput3 = 7
+total = 5+6+7=18
